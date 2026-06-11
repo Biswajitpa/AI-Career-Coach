@@ -34,3 +34,17 @@ An AI-powered Career Coaching Web Application that analyzes resumes, generates p
 <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 </p>
+
+## 📂 Project Structure
+AI-Career-Coach/
+│
+├── app.py
+├── uploads/
+├── vector_index/
+├── templates/
+│   ├── index.html
+│   ├── results.html
+│   ├── ask.html
+│   └── qa_results.html
+├── static/
+└── README.md
