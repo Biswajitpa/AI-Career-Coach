@@ -35,7 +35,10 @@ An AI-powered Career Coaching Web Application that analyzes resumes, generates p
 
 </p>
 
+
 ## 📂 Project Structure
+
+```text
 AI-Career-Coach/
 │
 ├── app.py
@@ -46,5 +49,9 @@ AI-Career-Coach/
 │   ├── results.html
 │   ├── ask.html
 │   └── qa_results.html
+│
 ├── static/
+│
 └── README.md
+```
+
