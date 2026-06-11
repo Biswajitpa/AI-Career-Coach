@@ -85,3 +85,22 @@ AI Resume Summary + Q&A System
 
 - User can ask questions about their resume using semantic search.
 
+## 💡 Example Use Cases
+- Resume Improvement
+- Interview Preparation
+- Career Guidance
+- Skill Gap Analysis
+- ATS Optimization Support
+
+##  🚀 Future Improvements
+- 🔐 User Authentication
+- ☁️ Cloud Deployment (Render / AWS)
+- 💬 ChatGPT-like chat interface
+- 📊 ATS Resume Scoring System
+- 📱 Mobile responsive UI
+- 🧠 Local LLM support (free version)
+
+ ##  ⚠️ Important Notes
+- Requires OpenAI API Key
+- FAISS vector index is stored locally
+- First run may download HuggingFace model (~400MB)
