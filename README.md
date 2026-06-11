@@ -51,4 +51,37 @@ AI Resume Summary + Q&A System
 ## 📂 Project Structure
 <img width="157" height="237" alt="image" src="https://github.com/user-attachments/assets/ec19a659-5803-45ff-acc8-9386f3d0290b" />
 
+## How It Works
+1. Upload Resume
+
+- User uploads a PDF resume.
+
+2. Text Extraction
+
+- PyPDF2 extracts text from PDF.
+
+3. Chunking
+
+- LangChain splits text into smaller chunks.
+
+4. Embeddings
+
+- HuggingFace converts text into vector embeddings.
+
+5. Vector Storage
+
+- FAISS stores embeddings for fast retrieval.
+
+6. AI Analysis
+
+ 
+ ## GPT-4o generates:
+- Career Objective
+- Skills
+- Experience
+- Education
+- Achievements
+7. Q&A System
+
+- User can ask questions about their resume using semantic search.
 
