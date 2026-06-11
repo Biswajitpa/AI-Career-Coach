@@ -49,29 +49,6 @@ AI Resume Summary + Q&A System
 
 
 ## 📂 Project Structure
+<img width="157" height="237" alt="image" src="https://github.com/user-attachments/assets/ec19a659-5803-45ff-acc8-9386f3d0290b" />
 
-```text
-AI-Career-Coach/
-│
-├── app.py                          # Main Flask Application
-├── README.md                       # Project Documentation
-├── requirements.txt                # Dependencies
-│
-├── uploads/                        # Uploaded Resume PDFs
-│
-├── vector_index/                   # FAISS Vector Database
-│
-├── templates/
-│   ├── index.html                  # Home Page
-│   ├── results.html                # Resume Analysis Page
-│   ├── ask.html                    # Ask Questions Page
-│   └── qa_results.html             # Question Answer Results
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-└── venv/                           # Virtual Environment
-```
 
