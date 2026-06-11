@@ -16,8 +16,21 @@ An AI-powered Career Coaching Web Application that analyzes resumes, generates p
 - 🌐 Flask Web Application
 
 ## 🏗️ Project Architecture
-<img width="205" height="235" alt="image" src="https://github.com/user-attachments/assets/cef964ab-500a-4cfc-84e9-0bc30ef0afe5" />
-
+```text
+User → Upload Resume (PDF)
+        ↓
+PDF Text Extraction (PyPDF2)
+        ↓
+Text Splitting (LangChain)
+        ↓
+Embeddings (HuggingFace)
+        ↓
+Vector Store (FAISS)
+        ↓
+LLM (GPT-4o via LangChain)
+        ↓
+AI Resume Summary + Q&A System
+''' 
 
 ## 🛠️ Tech Stack
 
