@@ -16,7 +16,7 @@ An AI-powered Career Coaching Web Application that analyzes resumes, generates p
 - 🌐 Flask Web Application
 
 ## 🏗️ Project Architecture
-```text
+
 User → Upload Resume (PDF)
         ↓
 PDF Text Extraction (PyPDF2)
@@ -30,7 +30,6 @@ Vector Store (FAISS)
 LLM (GPT-4o via LangChain)
         ↓
 AI Resume Summary + Q&A System
-''' 
 
 ## 🛠️ Tech Stack
 
@@ -54,17 +53,25 @@ AI Resume Summary + Q&A System
 ```text
 AI-Career-Coach/
 │
-├── app.py
-├── uploads/
-├── vector_index/
+├── app.py                          # Main Flask Application
+├── README.md                       # Project Documentation
+├── requirements.txt                # Dependencies
+│
+├── uploads/                        # Uploaded Resume PDFs
+│
+├── vector_index/                   # FAISS Vector Database
+│
 ├── templates/
-│   ├── index.html
-│   ├── results.html
-│   ├── ask.html
-│   └── qa_results.html
+│   ├── index.html                  # Home Page
+│   ├── results.html                # Resume Analysis Page
+│   ├── ask.html                    # Ask Questions Page
+│   └── qa_results.html             # Question Answer Results
 │
 ├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
 │
-└── README.md
+└── venv/                           # Virtual Environment
 ```
 
